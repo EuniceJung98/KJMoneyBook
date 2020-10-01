@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffcccc"
+    tools:context=".daily.CategorySpinnerActivity">
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#01579B"
+        android:text="아래에 있는 버튼을 눌러 카테고리를 변경하세요" />
+
+    <Spinner
+        android:id="@+id/categoryUpdateSpinner"
+        android:layout_width="380dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="380dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirmCategoryButton"
+        android:text="선택된 카테고리로 변경"
+        />
+
+</LinearLayout>
